@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.parent{
+    width:90% ;
+    height: 80%;
+    background-color:rgb(83, 86, 255) ;
+    position: relative;
+   
+}
+
+h4{
+    margin-top: 1px;
+}
+
+.header{
+    margin-top: 10px;
+}
+h4,
+h2 {
+  font-weight: bold;
+  color: rgb(42, 108, 174);
+  text-align: center;
+}
+
+.pic {
+  text-align: center;
+}
+
+#mainform {
+  text-align: center;
+}
+
+#container {
+  border: 2px black solid;
+  text-align: center;
+  width: 50%;
+  height: 80%;
+  background-color:rgb(223, 245, 255);
+
+}
+
+#mainform {
+  margin: 50px;
+}
+
+form > div {
+  color: rgb(24, 14, 14);
+  margin: 5%;
+}
+
+button {
+  width: 70%;
+  background-color:#378CE7;
+  border: none;
+  padding: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+   border-top: black 0.5px;
+   width: 69%;
+   padding: 5px;
+
+}
+
+i{
+    margin-right: 15px;
+}
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+   
+      <div id="container">
+        <div class="pic">
+          <img width="200" height="100" src="./book.png" />
+        </div>
+        <div>
+           <div class="header">
+          <h2>Lessons</h2>
+          <h4>Registration form design css</h4>
+        </div>
+
+        <div id="mainform">
+          <form method="get">
+            <div>
+              <i class="fa-solid fa-user"></i>
+              <input
+                type="text"
+                id="uname"
+                minlength="3"
+                maxlength="10"
+                name="uname"
+                placeholder="User Name"
+              />
+            </div>
+
+            <div>
+              <label><i class="fa-solid fa-envelope"></i></label>
+              <input type="email" id="email" name="email" placeholder="Email" />
+            </div>
+
+            <div>
+              <i class="fa-solid fa-lock"></i>
+              <input
+                type="password"
+                id="pass"
+                name="pass"
+                placeholder="Password"
+              />
+            </div>
+
+            <div>
+              <i class="fa-solid fa-lock"></i>
+              <input
+                type="password"
+                id="pass"
+                name="pass"
+                required
+                placeholder="Retype password"
+              />
+            </div>
+            <div>
+              <button type="submit" value="register">Register now</button>
+            </div>
+
+            <div>
+              <p>
+                already have an account
+                <a href="#">log in</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    
+        </div>
+       
+
+    <script
+      src="https://kit.fontawesome.com/3665f4457a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
